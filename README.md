@@ -1,7 +1,3 @@
-# Arch Linux Dotfiles
-
-**Nord + Tokyo Night style setup**.
-
 ---
 
 ## 🖥️ Desktop Environment
