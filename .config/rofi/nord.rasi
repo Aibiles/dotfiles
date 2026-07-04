@@ -1,3 +1,5 @@
+@theme "~/.local/share/rofi/themes/nord.rasi"
+
 configuration {
     font: "Envy Code R 12";
     line-margin: 10;
@@ -10,8 +12,6 @@ configuration {
     show-icons:     true;
 }
 
-
-@theme "~/.local/share/rofi/themes/nord.rasi"
 
 listview {
 	lines: 10;

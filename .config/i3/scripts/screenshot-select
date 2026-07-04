@@ -1,6 +1,6 @@
 #!/bin/sh
 
-f="$HOME/Picture/Screenshots/$(date +%Y-%m-%d-%H-%M-%S)-screenshot.png"
+f="$HOME/Pictures/Screenshots/$(date +%Y-%m-%d-%H-%M-%S)-screenshot.png"
 
 maim -s "$f"
 xclip -selection clipboard -t image/png -i "$f"
