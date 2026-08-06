@@ -1,0 +1,16 @@
+.cache/
+.local/state/
+.local/share/Trash/
+
+.mozilla/
+.chromium/
+
+.ssh/
+.gnupg/
+
+Downloads/
+Pictures/
+Videos/
+
+.local/share/Steam/
+.local/share/flatpak/
