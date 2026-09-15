@@ -4,3 +4,4 @@ fe4d9bfd9fae1fde6efc622d3df193763676e6f3 66039119b595d1fcc215b63a20cd40ee8772e27
 82217730e0fad31156b560586c671897671b10c5 b93aceb52bf5da6e788a8ac0e14afe53ca9c7f68 mimsy <cshi0652@gmail.com> 1783125963 -0400	pull --rebase (start): checkout b93aceb52bf5da6e788a8ac0e14afe53ca9c7f68
 b93aceb52bf5da6e788a8ac0e14afe53ca9c7f68 b288925a372d2138a9eca161d9272655d5b9548e mimsy <cshi0652@gmail.com> 1783125963 -0400	pull --rebase (pick): add nvim dap
 b288925a372d2138a9eca161d9272655d5b9548e b288925a372d2138a9eca161d9272655d5b9548e mimsy <cshi0652@gmail.com> 1783125963 -0400	pull --rebase (finish): returning to refs/heads/main
+b288925a372d2138a9eca161d9272655d5b9548e 6bf6ff05dd6f6026db467e82d5fc5d0fe7156c8c mimsy <cshi0652@gmail.com> 1786022844 -0400	commit: kitty cursor
