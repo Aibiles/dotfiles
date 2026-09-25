@@ -1,0 +1,29 @@
+#!/bin/bash
+
+case "$1" in
+    toggle)
+        mpc toggle
+        ;;
+
+    prev)
+        mpc prev
+        notify-send -r 100 -t 500  "MPD" "$(mpc current)"
+        ;;
+
+    next)
+        mpc next
+        notify-send -r 100 -t 500  "MPD" "$(mpc current)"
+        ;;
+
+    volume-up)
+        mpc volume +5
+        VOLUME=$(mpc status | sed -n 's/.*volume: \([0-9]\+\)%.*/\1/p')
+        notify-send -r 101 -t 500 "音量" "${VOLUME}%"
+        ;;
+
+    volume-down)
+        mpc volume -5
+        VOLUME=$(mpc status | sed -n 's/.*volume: \([0-9]\+\)%.*/\1/p')
+        notify-send -r 101 -t 500 "音量" "${VOLUME}%"
+        ;;
+esac

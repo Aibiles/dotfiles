@@ -18,6 +18,4 @@ listview {
 	columns: 2;
 }
 
-window {
-	width: 50%;
-}
+
